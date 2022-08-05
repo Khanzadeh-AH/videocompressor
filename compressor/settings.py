@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
 
-    'video',
+    'video.apps.VideoConfig',
 ]
 
 MIDDLEWARE = [
