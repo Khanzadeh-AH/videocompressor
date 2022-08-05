@@ -5,8 +5,6 @@ from celery import shared_task
 from .models import Video
 from django.conf import settings
 from datetime import timedelta
-from django.core.files import File
-from pathlib import Path
 
 MEDIA_ROOT = settings.MEDIA_ROOT
 v240_path = os.path.join(MEDIA_ROOT, 'video240')
